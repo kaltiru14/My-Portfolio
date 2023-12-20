@@ -8,21 +8,21 @@ const projects = [
   {
     name: "AAU Employee Management System",
     description:
-      "this employee management system portal provides a comprehensive solution for managing employee-related tasks and processes",
+      "This employee management system portal provides a comprehensive solution for managing employee-related tasks and processes. It ws built using Nextjs for the frontend, Nodejs for the Backend, and Mongodb for the Database.",
     image: "/AAU.png",
     github: "https://github.com/kalikal1/AAU_Employee_Management",
     link: "https://final-project-nine-pi.vercel.app/",
   },
   {
     name: "To-Do",
-    description: "To-Do is a to do list app that is built using HTML,CSS, and Javascript.",
+    description: "To-Do is a to do list website that is built using HTML,CSS, and Javascript.",
     image: "/todo.png",
     github: "https://github.com/kalikal1/To-Do-List",
     link: "",
   },
   {
     name: "Health Consultatation",
-    description: "This mobile app is used for patients to chat with available and available doctors incase of emergency and advice.",
+    description: "This mobile app is used for patients to chat with available and available doctors incase of emergency and advice.It is built by reactnative ",
     image: "/platoio.png",
     github: "https://github.com/kalikal1/Health_Consultation",
     link: "",
@@ -30,7 +30,7 @@ const projects = [
   {
     name: "Where-in-Addis",
     description:
-      "Where in addis i gives information about different recreational places in addis ababa, Ethiopia",
+      "Where in addis i gives information about different recreational places in addis ababa, Ethiopia.",
     image: "/familyphotos.png",
     github: "https://github.com/kalikal1/Where-in-Addis",
     link: "",
