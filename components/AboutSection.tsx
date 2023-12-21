@@ -44,7 +44,7 @@ const AboutSection = () => {
                 A passionate explorer with a love for coding, reading, adventures, and movies. 
                 Technology is my playground, and I thrive on unraveling the intricacies of data structures and algorithms. 
                 LeetCode and Codeforces are my training grounds, where I sharpen my problem-solving skills. 
-                Come take a look at my portfolio, where I share my tech journey. Let&#39;s connect and explore the endless possibilities together!🙂
+                Come take a look at my portfolio, where I share my tech journey. Let&#39;s connect and explore the endless possibilities together!
             </p>
 
             <br />

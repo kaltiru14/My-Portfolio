@@ -22,7 +22,7 @@ const projects = [
   },
   {
     name: "Health Consultatation",
-    description: "This mobile app is used for patients to chat with available and available doctors incase of emergency and advice.It is built by reactnative ",
+    description: "This mobile app is used for patients to chat with available and available doctors incase of emergency and advice.It is built by using reactnative. ",
     image: "/platoio.png",
     github: "https://github.com/kalikal1/Health_Consultation",
     link: "",
@@ -30,7 +30,7 @@ const projects = [
   {
     name: "Where-in-Addis",
     description:
-      "Where in addis i gives information about different recreational places in addis ababa, Ethiopia.",
+      "Where in addis gives information about different recreational places in addis ababa, Ethiopia.",
     image: "/familyphotos.png",
     github: "https://github.com/kalikal1/Where-in-Addis",
     link: "",
@@ -55,7 +55,7 @@ const ProjectsSection = () => {
                     <Link href={project.link}>
                       <Image
                         src={project.image}
-                        alt=""
+                        alt={project.name}
                         width={1000}
                         height={1000}
                         className="rounded-xl shadow-xl hover:opacity-70"
