@@ -23,7 +23,7 @@ const projects = [
   {
     name: "Health Consultatation",
     description: "This mobile app is used for patients to chat with available and available doctors incase of emergency and advice.It is built by using reactnative. ",
-    image: "/platoio.png",
+    image: "/",
     github: "https://github.com/kalikal1/Health_Consultation",
     link: "",
   },
@@ -31,7 +31,7 @@ const projects = [
     name: "Where-in-Addis",
     description:
       "Where in addis gives information about different recreational places in addis ababa, Ethiopia.",
-    image: "/familyphotos.png",
+    image: "/",
     github: "https://github.com/kalikal1/Where-in-Addis",
     link: "",
   },
