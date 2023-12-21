@@ -43,11 +43,11 @@ const AboutSection = () => {
             <p>
                 A passionate explorer with a love for coding, reading, adventures, and movies. 
                 Technology is my playground, and I thrive on unraveling the intricacies of data structures and algorithms. 
-                LeetCode and Codeforces are my training grounds, where I sharpen my problem-solving skills. 
+                LeetCode and Codeforces are my training grounds, where I sharpen my problem-solving skills. </p>
+            <br />
+            <p>
                 Come take a look at my portfolio, where I share my tech journey. Let&#39;s connect and explore the endless possibilities together!
             </p>
-
-            <br />
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
@@ -64,7 +64,7 @@ const AboutSection = () => {
               })}
             </div>
             <Image
-              src="/undraw.png"
+              src="/hero-image.png"
               alt=""
               width={325}
               height={325}
