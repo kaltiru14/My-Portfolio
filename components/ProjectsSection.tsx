@@ -21,7 +21,7 @@ const projects = [
     link: "",
   },
   {
-    name: "Health Consultatation",
+    name: "Health Consultation",
     description: "This mobile app is used for patients to chat with available and available doctors incase of emergency and advice.It is built by using reactnative. ",
     image: "/",
     github: "https://github.com/kalikal1/Health_Consultation",
