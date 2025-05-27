@@ -6,6 +6,14 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
+    name: "flare-car car rental website",
+    description:
+      "This website enables car owners to list their vehicles for rent and allows users to book cars effortlessly. Owners can manage their listings, set availability, and earn income, while renters enjoy a seamless experience to find, compare, and reserve vehicles for their needs.",
+    image: "/flare-car.png",
+    github: "https://github.com/samuel-T12/flare-car",
+    link: "",
+  },
+  {
     name: "AAU Employee Management System",
     description:
       "This employee management system portal provides a comprehensive solution for managing employee-related tasks and processes. It ws built using Nextjs for the frontend, Nodejs for the Backend, and Mongodb for the Database.",
@@ -62,7 +70,7 @@ const ProjectsSection = () => {
                       />
                     </Link>
                   </div>
-                  <div className="mt-8 md:w-1/2">
+                  <div className="mt-8 md:w-1/2  justify-center">
                     <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                       {project.description}

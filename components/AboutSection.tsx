@@ -5,11 +5,11 @@ const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "Python" },
-  { skill: "React" },
   { skill: "Next.js" },
+  { skill: "TypeScript" },
   { skill: "Tailwind CSS" },
+  { skill: "React" },
+  { skill: "Python" },
   { skill: "Git" },
   { skill: "GitHub" },
 ];
@@ -30,21 +30,16 @@ const AboutSection = () => {
             </h1>
             <p>
               Hi, my name is Kalkidan, and I am a{" "}
-              <span className="font-bold">{"full stack developer"}</span>{" "}
+              <span className="font-bold">{"frontend developer"}</span>{" "}
               from Addis Ababa, Ethiopia.
             </p>
             <br />
             <p>
               I graduated from Addis Ababa University, in 2023
               with a BS in Computer Science and started working in the
-              field.
+              field. I am a passionate explorer with a love for coding, reading, adventures, and movies. 
             </p>
-            <br />
-            <p>
-                A passionate explorer with a love for coding, reading, adventures, and movies. 
-                Technology is my playground, and I thrive on unraveling the intricacies of data structures and algorithms. 
-                LeetCode and Codeforces are my training grounds, where I sharpen my problem-solving skills. </p>
-            <br />
+            <br/>
             <p>
                 Come take a look at my portfolio, where I share my tech journey. Let&#39;s connect and explore the endless possibilities together!
             </p>

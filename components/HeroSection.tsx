@@ -22,10 +22,10 @@ const HeroSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-teal-600">
-              Fullstack Web Developer{" "}
+              Frontend Web Developer{" "}
             </span>
-            based in Addis Ababa, Ethiopia. currently in the banking sector and actively engaged in tackling challenges on LeetCode. 
-            My goal is to contribute to the field of data science, blending my banking expertise with analytical skills
+            based in Addis Ababa, Ethiopia. currently in the banking sector and working as a junior frontend developer in a software company. 
+            
           </p>
           <Link
             to="projects"
