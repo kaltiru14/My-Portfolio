@@ -39,7 +39,7 @@ const AboutSection = () => {
               with a BS in Computer Science and started working in the
               field. I am a passionate explorer with a love for coding, reading, adventures, and movies. 
             </p>
-            <br/>
+            <br />
             <p>
                 Come take a look at my portfolio, where I share my tech journey. Let&#39;s connect and explore the endless possibilities together!
             </p>
