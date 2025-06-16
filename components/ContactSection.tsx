@@ -1,4 +1,7 @@
-// Example Contact Section (add this to your page)
+"use client"; // Add this at the top if using React hooks
+
+import React from 'react'; // Add this import
+
 const ContactSection = () => {
   return (
     <section id="contact" className="py-16 px-4 sm:px-8 md:px-16 bg-white dark:bg-stone-900">
@@ -37,3 +40,5 @@ const ContactSection = () => {
     </section>
   );
 };
+
+export default ContactSection; // Make sure this export exists
