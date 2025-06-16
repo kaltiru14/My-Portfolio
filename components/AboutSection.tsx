@@ -35,7 +35,7 @@ const AboutSection = () => {
                 Get to know me!
               </h3>
               <p className="text-gray-700 dark:text-gray-300">
-                Hi! I'm Kalkidan, a <span className="font-bold text-teal-600 dark:text-teal-400">Frontend Developer</span> based in Addis Ababa, Ethiopia.
+                Hi! I&apos;m Kalkidan, a <span className="font-bold text-teal-600 dark:text-teal-400">Frontend Developer</span> based in Addis Ababa, Ethiopia.
               </p>
               <p className="text-gray-700 dark:text-gray-300">
                 I graduated from Addis Ababa University in 2023 with a BSc in Computer Science. I'm currently working in the banking sector while contributing as a Junior Frontend Developer at a software company.
