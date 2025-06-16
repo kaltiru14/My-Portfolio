@@ -38,13 +38,13 @@ const AboutSection = () => {
                 Hi! I&apos;m Kalkidan, a <span className="font-bold text-teal-600 dark:text-teal-400">Frontend Developer</span> based in Addis Ababa, Ethiopia.
               </p>
               <p className="text-gray-700 dark:text-gray-300">
-                I graduated from Addis Ababa University in 2023 with a BSc in Computer Science. I&apos;m  currently working in the banking sector while contributing as a Junior Frontend Developer at a software company.
+                I graduated from Addis Ababa University in 2023 with a BSc in Computer Science. I&apos;m currently working in the banking sector while contributing as a Junior Frontend Developer at a software company.
               </p>
               <p className="text-gray-700 dark:text-gray-300">
-                I&apos;m  passionate about building interactive user experiences and constantly learning new technologies. Outside of work, you'll find me reading, exploring, or enjoying a good movie.
+                I&apos;m passionate about building interactive user experiences and constantly learning new technologies. Outside of work, you&apos;ll find me reading, exploring, or enjoying a good movie.
               </p>
               <blockquote className="border-l-4 border-teal-500 pl-4 italic text-gray-600 dark:text-gray-400 my-6">
-                “I believe technology should feel simple, intuitive, and empowering — that's what I strive for in every line of code.”
+                &ldquo;I believe technology should feel simple, intuitive, and empowering &mdash; that&apos;s what I strive for in every line of code.&rdquo;
               </blockquote>
             </div>
 
