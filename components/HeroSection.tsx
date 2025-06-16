@@ -19,7 +19,7 @@ const HeroSection = () => {
         <div className="md:w-1/2 text-center md:text-left order-2 md:order-1">
           
           <h2 className="text-2xl md:text-3xl mt-4">
-            Hi, I'm <span className="font-bold hover-underline">Kalkidan Debas</span>
+            Hi, I&apos;m  <span className="font-bold hover-underline">Kalkidan Debas</span>
           </h2>
 
           <p className="mt-4 mb-6 text-lg md:text-2xl">
