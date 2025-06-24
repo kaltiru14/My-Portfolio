@@ -110,7 +110,7 @@ export default function Navbar() {
               <button
                 onClick={toggleTheme}
                 className="bg-slate-100 dark:bg-slate-800 p-2 rounded-xl hover:scale-110 transition-all duration-200"
-                aria-label={`Switch to ${currentTheme === 'dark' ? 'light' : 'dark'} mode`}
+                aria-label={`Switch to ${currentTheme === 'light' ? 'dark' : 'light'} mode`}
               >
                 {currentTheme === "dark" ? (
                   <DynamicSun size={18} className="text-yellow-400" />
