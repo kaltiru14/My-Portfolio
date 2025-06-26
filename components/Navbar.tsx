@@ -120,7 +120,7 @@ export default function Navbar() {
               </button>
 
               <a
-                href="/Kalkidan Belayneh Debas.pdf"
+                href="/Kalkidan Belayneh Debas CV2.pdf"
                 download
                 className="flex items-center space-x-1 bg-teal-600 hover:bg-teal-700 text-white px-3 py-2 rounded-md transition-colors duration-200 text-sm font-medium"
                 aria-label="Download resume"
