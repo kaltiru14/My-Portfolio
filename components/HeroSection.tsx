@@ -35,7 +35,7 @@ const HeroSection = () => {
                 delaySpeed={1000}
               />
             </span>{" "}
-            based in Addis Ababa, Ethiopia. Working in the banking sector and currently serving as a Junior Frontend Developer at a software company.
+            based in Addis Ababa, Ethiopia. Working in the banking sector and have previously worked as a Frontend Developer Intern at a software company.
           </p>
 
           <div className="flex flex-nowrap justify-center md:justify-start gap-3 sm:gap-4 mt-8 overflow-x-auto w-full pb-2">
