@@ -5,6 +5,16 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
+    name: "Data Lakehouse Bank Project ",
+    description:
+      "Designed and implemented a data lakehouse using NiFi, Spark, Iceberg, and MinIO to automate ETL processes from multiple banking data sources. Transformed and stored data efficiently, integrated with Dremio, and developed dashboards in Superset for reporting and analytics.",
+    image: "/lakehouse.jpg",
+    github: "",
+    link: "",
+    tech: ["Apache Nifi", "Minio", "Apache Spark", "Apache Iceberg", "Nessie","Dremio", "Apache Superset"],
+    featured: true
+  },
+  {
     name: "FlareCar - Car Rental Website",
     description:
       "This website enables car owners to list their vehicles for rent and allows users to book cars effortlessly. Owners can manage their listings, set availability, and earn income, while renters enjoy a seamless experience to find, compare, and reserve vehicles for their needs.",
@@ -115,6 +125,7 @@ const ProjectsSection = () => {
                     </div>
                     
                     <div className="flex gap-4">
+                      {project.github && (
                       <Link 
                         href={project.github} 
                         target="_blank"
@@ -124,6 +135,7 @@ const ProjectsSection = () => {
                         <BsGithub size={24} />
                         <span>Code</span>
                       </Link>
+                      )}
                       {project.link && (
                         <Link 
                           href={project.link} 
@@ -184,14 +196,16 @@ const ProjectsSection = () => {
                     ))}
                   </div>
                   <div className="flex gap-4">
-                    <Link 
-                      href={project.github} 
-                      target="_blank"
-                      className="text-sm flex items-center gap-1 text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 transition-colors"
-                    >
-                      <BsGithub size={16} />
-                      <span>Code</span>
-                    </Link>
+                    {project.github && (
+                      <Link 
+                        href={project.github} 
+                        target="_blank"
+                        className="text-sm flex items-center gap-1 text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 transition-colors"
+                      >
+                        <BsGithub size={16} />
+                        <span>Code</span>
+                      </Link>
+                    )}
                     {project.link && (
                       <Link 
                         href={project.link} 

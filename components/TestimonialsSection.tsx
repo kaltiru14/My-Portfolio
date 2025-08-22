@@ -8,27 +8,27 @@ const testimonials = [
   {
     name: "Zekaryas Kobota",
     role: "Junior Application Developer Officer, Amhara Bank",
-    content: "I had the pleasure of working alongside Kalkidan Belayneh, a dedicated and highly capable Junior MIS Officer, on the successful implementation of a data lakehouse project. Throughout the process, Kalkidan demonstrated strong technical skills, attention to detail, and a deep understanding of data architecture and integration. Her collaborative spirit and problem-solving approach played a key role in ensuring the project met its goals efficiently and effectively. It was truly a rewarding experience working with her, and I am confident she will continue to excel in her professional journey.",
+    content: "I work with Kalkidan at Amhara Bank, where she contributes to our data lakehouse project and various reporting tasks. She has strong skills in data analysis and works with tools like Apache NiFi, Spark, and Iceberg. Kalkidan is quick to learn and consistently delivers high-quality results.",
     avatar: "/zekaryas.jpg",
   },
   {
     name: "Aschale Tikuye",
-    role: "Senior Software Developer, Amhara Bank",
-    content: "Kalkidan's employee management system showcased her ability to handle full-stack development challenges. She showed great problem-solving skills and attention to detail in implementing complex features with Node.js and MongoDB.",
-    avatar: "/aau-supervisor.jpg",
+    role: "MIS Team Leader, Amhara Bank",
+    content: "As the MIS Team Leader, I have had the pleasure of supervising Kalkidan in our department. She has been actively involved in analyzing and preparing critical business reports by extracting and transforming data from various systems. Kalkidan demonstrates strong skills in SQL, data integration tools, and business intelligence platforms. Her ability to understand complex data structures and turn them into meaningful insights has been a valuable asset to our team. She is hardworking, detail-oriented, and continuously seeks to improve her skills.",
+    avatar: "/asche.jpg",
   },
   {
     name: "Blen Assefa",
-    role: "AAU Employee Management System",
+    role: "Freelancer",
     content: "Working with Kalkidan on our project was a pleasure. She translated our requirements into a functional Typescript application with excellent UI/UX considerations. Very responsive to feedback throughout the process.",
-    avatar: "/client-avatar.jpg",
+    avatar: "/blen.jpg",
   },
-  {
-    name: "Project Manager",
-    role: "Where in Addis Project",
-    content: "Kalkidan's work on our location-based app was outstanding. She implemented complex geolocation features with clean, maintainable code and delivered ahead of deadlines.",
-    avatar: "/manager-avatar.jpg",
-  },
+  // {
+  //   name: "Project Manager",
+  //   role: "Where in Addis Project",
+  //   content: "Kalkidan's work on our location-based app was outstanding. She implemented complex geolocation features with clean, maintainable code and delivered ahead of deadlines.",
+  //   avatar: "/manager-avatar.jpg",
+  // },
 ];
 
 const TestimonialsSection = () => {
@@ -64,7 +64,7 @@ const TestimonialsSection = () => {
   };
 
   return (
-    <section id="testimonials" className="bg-white dark:bg-stone-900 py-16 px-4 sm:px-8 md:px-16">
+    <section id="testimonials" className="bg-white dark:bg-stone-900 px-4 sm:px-8 md:px-16">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-center font-bold text-4xl mb-6">
           Testimonials
@@ -72,7 +72,7 @@ const TestimonialsSection = () => {
         </h2>
 
         <p className="text-center text-lg text-gray-600 dark:text-gray-300 mb-12 max-w-3xl mx-auto">
-          What colleagues and clients say about working with me
+          What colleagues and mentors say about working with me
         </p>
 
         <div className="relative">
@@ -163,7 +163,7 @@ const TestimonialsSection = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <p className="text-gray-600 dark:text-gray-300 mb-4">
             Want to see more professional feedback?
           </p>
@@ -173,7 +173,7 @@ const TestimonialsSection = () => {
           >
             Request References
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -26,7 +26,7 @@ const HeroSection = () => {
             I&apos;m a{" "}
             <span className="text-teal-600 font-semibold inline-block min-w-[180px] md:min-w-[220px]">
               <Typewriter
-                words={["Frontend Developer", "SQL Developer"]}
+                words={["Frontend Developer","Data Analyst", "SQL Developer"]}
                 loop
                 cursor
                 cursorStyle="|"

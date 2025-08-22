@@ -20,9 +20,9 @@ export default function Home() {
           <ProjectsSection />
         </div>
         
-        {/* <div className="animate-slideUp delay-300">
+        <div className="animate-slideUp delay-300">
           <TestimonialsSection />
-        </div> */}
+        </div>
         
         <div className="animate-slideUp delay-400">
           <ContactSection />

@@ -7,15 +7,19 @@ const skills = [
   { skill: "HTML", level: "Advanced" },
   { skill: "CSS", level: "Advanced" },
   { skill: "JavaScript", level: "Advanced" },
-  { skill: "TypeScript", level: "Intermediate" },
   { skill: "React", level: "Advanced" },
+  { skill: "TypeScript", level: "Intermediate" },
   { skill: "Next.js", level: "Intermediate" },
   { skill: "Tailwind CSS", level: "Advanced" },
   { skill: "Git/GitHub", level: "Intermediate" },
-  { skill: "Python", level: "Basic" },
   { skill: "UI/UX Principles", level: "Intermediate" },
   { skill: "Responsive Design", level: "Advanced" },
   { skill: "Web Accessibility", level: "Intermediate" },
+  { skill: "Python", level: "Basic" },
+  { skill: "Numpy", level: "Intermediate" },
+  { skill: "Pandas", level: "Intermediate" },
+  { skill: "Matplotlib", level: "Intermediate" },
+  { skill: "Seaborn", level: "Intermediate" },
 ];
 
 const AboutSection = () => {
