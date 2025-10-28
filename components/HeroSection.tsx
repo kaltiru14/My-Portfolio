@@ -48,7 +48,7 @@ const HeroSection = () => {
             </Link>
             
             <a
-              href="/developer and analytics CV.pdf"
+              href="/Kalkidan Belayneh Debas CV.pdf"
               download
               className="flex-shrink-0 flex items-center gap-2 border-2 border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-white font-semibold px-5 py-3 rounded-lg transition-all duration-300 group whitespace-nowrap"
             >
